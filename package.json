@@ -15,13 +15,16 @@
     "type": "git",
     "url": "git+https://github.com/joseguera/pokedex-project.git"
   },
-  "author": "",
+  "author": "Jose Oseguera",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joseguera/pokedex-project/issues"
   },
   "homepage": "https://github.com/joseguera/pokedex-project#readme",
   "keywords": [],
+  "engines": {
+    "node": "12.18.3"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
