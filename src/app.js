@@ -23,7 +23,7 @@ app.use(express.json());
 
 // api routes
 
-app.get('/users', (req, res, next) => {
+app.get('/api/users', (req, res, next) => {
   res.send('All users')
 })
 
