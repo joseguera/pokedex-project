@@ -23,9 +23,11 @@ app.use(express.json());
 
 // test api call
 
+
 app.get('/api/users', (req, res, next) => {
   res.send('All users')
 })
+
 
 // api routes
 
