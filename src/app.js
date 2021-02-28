@@ -22,6 +22,11 @@ app.use(cors());
 app.use(express.json());
 
 // api routes
+
+app.get('/users', (req, res, next) => {
+  res.send('All users')
+})
+
 app.use('/api/auth', authRouter);
 app.use('/api/users', usersRouter);
 
